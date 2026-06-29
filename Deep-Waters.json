@@ -1,11 +1,11 @@
 {
     "name": "Deep Waters",
-    "description": "Experience blues & bubbles, inspired by the Wii Homebrew Channel, for a calming chat vibe.",
+    "description": "Wait. is that blue fire?",
     "version": "2.4.0",
     "authors": [
         {
-            "name": "Cyclone",
-            "id": "605791172530536449"
+            "name": "brightsketch",
+            "id": "745147840556302396"
         }
     ],
     "semanticColors": {
