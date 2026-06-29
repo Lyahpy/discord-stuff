@@ -1,5 +1,5 @@
 {
-  "name": "Lovely - Custom",
+  "name": "Lovely",
   "description": "look 4slu!",
   "authors": [
     {
@@ -15,7 +15,7 @@
     "TEXT_MENTION": ["#00E5FF"],
     "TEXT_DEFAULT": ["#FFFFFF"],
 
-    "INPUT_BACKGROUND": ["#111111"],
+    "INPUT_BACKGROUND": ["#111111a0"],
 
     "CHANNEL_ICON": ["#00E5FF"],
 
@@ -42,13 +42,19 @@
     "FOCUS_PRIMARY": ["#00E5FF"],
     "FOCUS_SECONDARY": ["#FFFFFF"],
 
-    "BACKGROUND_FLOATING": ["#000000"],
-    "BACKGROUND_NESTED_FLOATING": ["#111111"]
+    "BACKGROUND_MOBILE_PRIMARY": ["#00000000"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#00000000"],
+    "BACKGROUND_PRIMARY": ["#00000000"],
+    "BACKGROUND_SECONDARY": ["#00000000"],
+    "BACKGROUND_SECONDARY_ALT": ["#00000000"],
+    "BACKGROUND_TERTIARY": ["#00000000"],
+    "BACKGROUND_FLOATING": ["#00000000"],
+    "BACKGROUND_NESTED_FLOATING": ["#11111100"]
   },
 
   "background": {
     "url": "https://raw.githubusercontent.com/Lyahpy/discord-stuff/refs/heads/main/Novo%20projeto%20250%20%5B3A61ACC%5D.png",
-    "alpha": 0.85,
+    "alpha": 1.00,
     "blur": 0
   },
 
@@ -58,14 +64,14 @@
 
     "PRIMARY_100": "#FFFFFF",
     "PRIMARY_200": "#E0F7FA",
-    "PRIMARY_230": "#111111",
-    "PRIMARY_300": "#000000",
-    "PRIMARY_400": "#111111",
-    "PRIMARY_500": "#000000",
-    "PRIMARY_600": "#000000",
-    "PRIMARY_700": "#000000",
-    "PRIMARY_800": "#000000",
-    "PRIMARY_900": "#000000",
+    "PRIMARY_230": "#00000000",
+    "PRIMARY_300": "#00000000",
+    "PRIMARY_400": "#00000000",
+    "PRIMARY_500": "#00000000",
+    "PRIMARY_600": "#00000000",
+    "PRIMARY_700": "#00000000",
+    "PRIMARY_800": "#00000000",
+    "PRIMARY_900": "#00000000",
 
     "GREEN_360": "#00E5FF",
     "BLUE_345": "#00E5FF",
@@ -77,15 +83,27 @@
     "PLUM_3": "#00E5FF",
     "PLUM_11": "#00E5FF",
     "PLUM_13": "#00E5FF",
-    "PLUM_15": "#111111",
+    "PLUM_15": "#00000000",
     "PLUM_16": "#FFFFFF",
-    "PLUM_17": "#111111",
-    "PLUM_18": "#111111",
-    "PLUM_19": "#111111",
-    "PLUM_20": "#000000",
-    "PLUM_22": "#000000",
-    "PLUM_23": "#111111",
-    "PLUM_24": "#111111"
+    "PLUM_17": "#00000000",
+    "PLUM_18": "#00000000",
+    "PLUM_19": "#00000000",
+    "PLUM_20": "#00000000",
+    "PLUM_22": "#00000000",
+    "PLUM_23": "#00000000",
+    "PLUM_24": "#00000000"
+  },
+
+  "pathIdMatches": {
+    "background": [
+      "guilds",
+      "channels",
+      "messages",
+      "gdm_channels",
+      "channels_search",
+      "user_profile",
+      "chat"
+    ]
   },
 
   "plus": {
